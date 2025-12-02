@@ -196,9 +196,9 @@ Print a message if a number is greater than 100.
 
 30 program30.c / program30.cpp / Program30.java / program30.py
 
-Description
+**Description**
 
 Test whether a given integer is even or odd using if statements.
 
-How to Run
+**How to Run**
 Go to the folder for each programming language. Open the program file (.c, .cpp, .py, .java). Run it on VS Code, Notepad, or OnlineGDB. Check the output.
