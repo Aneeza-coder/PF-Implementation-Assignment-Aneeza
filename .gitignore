@@ -53,3 +53,85 @@ dkms.conf
 
 # debug information files
 *.dwo
+########################################
+# EXTRA: C / C++ Ignore Rules
+########################################
+
+# Coverage files
+*.gcda
+*.gcno
+*.gcov
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+
+########################################
+# JAVA IGNORE RULES
+########################################
+
+# Compiled class files
+*.class
+
+# Java archives
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+out/
+target/
+
+
+########################################
+# PYTHON IGNORE RULES
+########################################
+
+# Bytecode cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Tools cache
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+
+########################################
+# COMMON OS & EDITOR FILES
+########################################
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+*.l
